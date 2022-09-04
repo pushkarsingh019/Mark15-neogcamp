@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300;400&display=swap");
+
+:root {
+  --primary-color: #0096ff;
+  --second-color: #effffd;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Heebo", sans-serif;
+  /* border: 1px solid red; */
+}
+
+/* universal styles */
+.padding100 {
+  padding: 50px 100px;
+}
+
+.button {
+  padding: 8px 10px;
+  border: none;
+  margin-right: 1rem;
+  font-size: 14px;
+}
+
+/* navbar */
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  padding: 25px 100px;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: black;
+  margin: 1rem;
+  font-size: 1.2rem;
+}
+
+/* Button */
+.primary {
+  background-color: var(--primary-color);
+  color: white;
+  border: 2px solid var(--primary-color);
+}
+
+.secondary {
+  border: 2px solid var(--primary-color);
+  background-color: white;
+  /* color: var(--primary-color); */
+}
+
+/* explore-card */
+
+.explore-card {
+  padding: 15px 5px;
+  text-align: center;
+  /* background-color: var(--second-color); */
+  margin-right: 2rem;
+  border-radius: 16px;
+  box-shadow: 4px 4px var(--second-color);
+  position: relative;
+  top: 0;
+  transition: top ease 0.5;
+}
+
+.explore-card:hover {
+  top: -10px;
+}
+
+.explore-card img {
+  width: 100px;
+  height: 100px;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--second-color);
+}
+
+.social-links a {
+  text-decoration: none;
+  margin-right: 2rem;
+  color: black;
+}
+
+.social-links a:hover {
+  text-decoration: underline var(--primary-color);
+}
+
+/* styling project card */
+.project-card {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-bottom: 5rem;
+}
+
+.cta-section {
+  margin-top: 6px;
+}
+
+.project-card h4 {
+  font-size: 1.5rem;
+}
+
+.cta-section a {
+  text-decoration: none;
+}
+
+.cta-section .secondary {
+  color: black;
+}
+
+/* Home screen */
+
+.hero-section {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding: 100px;
+}
+
+.text-section h1 {
+  font-size: 3rem;
+}
+
+.text-section h3 {
+  font-size: 1.2rem;
+  color: #00000080;
+}
+
+.skills-section {
+  background-color: var(--second-color);
+}
+
+.skills-section h2 {
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+
+.explore-section h2 {
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+
+.explore-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
