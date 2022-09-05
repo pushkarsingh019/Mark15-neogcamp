@@ -18,6 +18,16 @@
   padding: 50px 100px;
 }
 
+.post-content {
+  text-align: left;
+  padding-top: 5px;
+}
+
+.back {
+  padding: 20px 100px;
+  text-align: left;
+}
+
 .button {
   padding: 8px 10px;
   border: none;
@@ -51,6 +61,16 @@
   border: 2px solid var(--primary-color);
   background-color: white;
   /* color: var(--primary-color); */
+}
+
+.back-button {
+  background-color: white;
+  border: none;
+  font-size: 16px;
+}
+
+.back-button:hover {
+  cursor: pointer;
 }
 
 /* explore-card */
@@ -91,6 +111,19 @@
 
 .social-links a:hover {
   text-decoration: underline var(--primary-color);
+}
+
+/* blog Card */
+.blog-card {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-bottom: 5rem;
+}
+
+.blog-card h4 {
+  font-size: 1.5rem;
 }
 
 /* styling project card */
