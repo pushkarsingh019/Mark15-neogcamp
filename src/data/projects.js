@@ -111,6 +111,15 @@ const projectSchema = [
       "So you invest in stocks, but are your stonks in profit or loss? Find out using this web app.",
     liveProjectlink: "https://stocks-profit-loss-mark14.netlify.app/",
     githublink: "https://github.com/pushkarsingh019/Profit---Loss"
+  },
+  {
+    id: 12,
+    name: "Cash Register",
+    codeName: "Mark Ten",
+    description:
+      "Do you also find Math boring? Skip the Maths in your life with this cash register app. Live life Math free.",
+    liveProjectlink: "https://cash-register-neogcamp-pushkar.netlify.app/",
+    githublink: "https://github.com/pushkarsingh019/cash-register"
   }
 ];
 
