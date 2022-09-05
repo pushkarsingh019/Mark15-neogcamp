@@ -75,7 +75,16 @@ function ExploreSection() {
           redirect="/projects"
         />
         <ExploreCard image={blog} text="Blogs" redirect="/blog" />
-        <ExploreCard image={youtubeLogo} text="YouTube" redirect="/" />
+        <div
+          onClick={() =>
+            (window.location.href = "https://youtube.com/stoicpushkar")
+          }
+          className="explore-card"
+        >
+          <img src={youtubeLogo} alt={`Stoic Pushkar YouTube Channel`} />
+          <br />
+          <h3>YouTube</h3>
+        </div>
       </div>
     </section>
   );
