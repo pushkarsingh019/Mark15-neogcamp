@@ -8,7 +8,7 @@ export function Back() {
 
   return (
     <div className="back">
-      <button onClick={() => navigate(-1)} className="back-button">
+      <button onClick={() => navigate("/blog")} className="back-button">
         ← Go Back
       </button>
     </div>
