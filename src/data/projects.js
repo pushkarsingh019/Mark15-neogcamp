@@ -120,7 +120,24 @@ const projectSchema = [
       "Do you also find Math boring? Skip the Maths in your life with this cash register app. Live life Math free.",
     liveProjectlink: "https://cash-register-neogcamp-pushkar.netlify.app/",
     githublink: "https://github.com/pushkarsingh019/cash-register"
+  },
+  {
+    id: 13,
+    name: "Sophia Yuna Cheong's Website",
+    codeName: "client work",
+    description:
+      "This is a personal portfolio website built with Reactjs for Sophia Yuna Cheong as part of my freelance journey.",
+    liveProjectLink: "https://sophiayunacheong.com",
+    githublink: "https://github.com/pushkarsingh019/sophiayunacheong-main"
   }
+  // {
+  //   id: 14,
+  //   name: "Rent My Hostel",
+  //   codeName: "Personal Project",
+  //   description:
+  //     "Finding Boys Hostel is difficult online, rent my hostel is an ongoing project where I combine all the hostrls and display it on one website",
+  //   liveProjectlink: "https://rent-my-hostel.vercel.app"
+  // }
 ];
 
 export default projectSchema;
