@@ -186,3 +186,58 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
+
+/* styling for mobile */
+@media (max-width: 450px) {
+  .padding100 {
+    padding: 25px 20px;
+  }
+  .back {
+    padding: 10px 20px;
+  }
+  .button {
+    font-size: 12px;
+  }
+  .navbar {
+    padding: 20px;
+  }
+  .back-button {
+    font-size: 14px;
+  }
+  .explore-card {
+    margin: 0;
+  }
+  .footer {
+    display: flex;
+    text-align: center;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+  }
+  .social-links {
+    /* margin-right: 1.2rem; */
+  }
+  .blog-card {
+    margin-bottom: 2rem;
+  }
+  .blog-card h4 {
+    font-size: 1.2rem;
+  }
+  .project-card {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .hero-section {
+    display: block;
+    padding: 30px 25px;
+  }
+  .text-section h1 {
+    font-size: 1.5rem;
+    font-weight: 800;
+  }
+  .text-section h3 {
+    font-size: 1rem;
+  }
+  .explore-grid {
+    display: block;
+  }
+}
