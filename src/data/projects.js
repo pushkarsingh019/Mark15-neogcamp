@@ -51,7 +51,12 @@ const projectSchema = [
   },
   {
     id: 5,
-    name: "Emoji "
+    name: "Emoji Identifier",
+    codeName: "Mark Eight",
+    description:
+      "Are you also confused with all the emoji's flying around? Emoji Identifier helps you to identify emoji and makes sense of Gen Z world.",
+    liveProjectlink: "https://emoji-identifier.vercel.app/",
+    githublink: "https://github.com/pushkarsingh019/emoji-identifier"
   },
   {
     id: 6,
@@ -68,8 +73,44 @@ const projectSchema = [
     codeName: "Mark Three",
     description:
       "My Online Home where I can showcase my work. Built with ReactJs.",
-    liveProjectLink: "https://c3p10z.csb.app/",
-    githubLink: ""
+    liveProjectLink: "https://pushkarsingh.vercel.app",
+    githubLink: "https://github.com/pushkarsingh019/Mark15-neogcamp"
+  },
+  {
+    id: 8,
+    name: "Is your bitrthday lucky",
+    codeName: "Mark Eleven",
+    description:
+      "As a famous man once said, your career is 10% hard work and 90% luck, so use this app to find out if you are lucky or not.",
+    liveProjectlink: "https://pushkar-lucky-checker.netlify.app/",
+    githublink: "https://github.com/pushkarsingh019/Lucky-Birthday-Checker"
+  },
+  {
+    id: 9,
+    name: "Do you know Triangles?",
+    codeName: "Mark Twelve",
+    description:
+      "You Know triangles? But, do you? test your knowledge on traingles with this web app built with Html,Css and JavaScript.",
+    liveProjectlink: "https://traiangles-neog-camp.netlify.app/",
+    githublink: "https://github.com/pushkarsingh019/Fun-With-Triangles"
+  },
+  {
+    id: 10,
+    name: "Pallindrome Birthday",
+    codeName: "Mark Thirteen",
+    description:
+      "So you checked if your birthday is lucky, but the ultimate test of luck is plaindrome. So is your birthday palindrome?",
+    liveProjectlink: "https://palindrome-birthday-self.vercel.app/",
+    githublink: "https://github.com/pushkarsingh019/palindrome-birthday"
+  },
+  {
+    id: 11,
+    name: "Are your STONKS in profit or loss?",
+    codeName: "Mark 14",
+    description:
+      "So you invest in stocks, but are your stonks in profit or loss? Find out using this web app.",
+    liveProjectlink: "https://stocks-profit-loss-mark14.netlify.app/",
+    githublink: "https://github.com/pushkarsingh019/Profit---Loss"
   }
 ];
 
