@@ -100,8 +100,10 @@ const projectSchema = [
     codeName: "Mark Thirteen",
     description:
       "So you checked if your birthday is lucky, but the ultimate test of luck is plaindrome. So is your birthday palindrome?",
-    liveProjectlink: "https://palindrome-birthday-self.vercel.app/",
-    githublink: "https://github.com/pushkarsingh019/palindrome-birthday"
+    liveProjectlink:
+      "https://palindrome-checker-neog-camp-pushkar.netlify.app/",
+    githublink:
+      "https://github.com/pushkarsingh019/Palindrome-Birthday-neog-camp"
   },
   {
     id: 11,
