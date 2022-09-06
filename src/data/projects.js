@@ -129,7 +129,7 @@ const projectSchema = [
     codeName: "client work",
     description:
       "This is a personal portfolio website built with Reactjs for Sophia Yuna Cheong as part of my freelance journey.",
-    liveProjectLink: "https://sophiayunacheong.com",
+    liveProjectlink: "https://sophiayunacheong.com",
     githublink: "https://github.com/pushkarsingh019/sophiayunacheong-main"
   }
   // {
