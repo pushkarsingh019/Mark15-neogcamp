@@ -74,7 +74,7 @@ const projectSchema = [
     description:
       "My Online Home where I can showcase my work. Built with ReactJs.",
     liveProjectLink: "https://pushkarsingh.vercel.app",
-    githubLink: "https://github.com/pushkarsingh019/Mark15-neogcamp"
+    githublink: "https://github.com/pushkarsingh019/Mark15-neogcamp"
   },
   {
     id: 8,
