@@ -3,6 +3,9 @@ import { useNavigate } from "react-router-dom";
 import blogSchema from "../data/blog";
 import Footer from "../components/Footer";
 
+// importing animation library
+import FadeIn from "react-fade-in";
+
 export function Back() {
   const navigate = useNavigate();
 
@@ -85,13 +88,13 @@ function PostContent() {
 
 function CrushPost() {
   return (
-    <main className="post-page">
+    <FadeIn className="post-page">
       <Navbar />
       <Back />
       <PostHero />
       <PostContent />
       <Footer />
-    </main>
+    </FadeIn>
   );
 }
 

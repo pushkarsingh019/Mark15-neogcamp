@@ -3,6 +3,9 @@ import projectSchema from "../data/projects.js";
 import ProjectCard from "../components/ProjectCard";
 import Footer from "../components/Footer";
 
+// importing animation library
+import FadeIn from "react-fade-in";
+
 const projectData = projectSchema.reverse();
 
 function ProjectHeroSection() {
@@ -35,12 +38,12 @@ function ProjectDisplay() {
 
 function ProjectScreen() {
   return (
-    <main>
+    <FadeIn>
       <Navbar />
       <ProjectHeroSection />
       <ProjectDisplay />
       <Footer />
-    </main>
+    </FadeIn>
   );
 }
 

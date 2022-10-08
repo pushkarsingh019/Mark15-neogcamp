@@ -2,6 +2,9 @@ import Navbar from "../components/Navbar";
 import blogSchema from "../data/blog";
 import BlogCard from "../components/BlogCard";
 
+// importing animation library
+import FadeIn from "react-fade-in";
+
 function BlogHeroSection() {
   return (
     <section className="text-section padding100">
@@ -47,11 +50,11 @@ function Disclamer() {
 
 function BlogScreen() {
   return (
-    <main>
+    <FadeIn>
       <Navbar />
       <BlogHeroSection />
       <DisplayBlog />
-    </main>
+    </FadeIn>
   );
 }
 

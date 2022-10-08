@@ -7,6 +7,9 @@ import projectsLogo from "../assets/projectsLogo.jpg";
 import blog from "../assets/blog.png";
 import youtubeLogo from "../assets/youtube.png";
 
+// importing animation library
+import FadeIn from "react-fade-in";
+
 function HeroSection() {
   return (
     <section className="hero-section padding100">
@@ -92,13 +95,13 @@ function ExploreSection() {
 
 function HomeScreen() {
   return (
-    <main>
+    <FadeIn>
       <NavBar />
       <HeroSection />
       <SkillsSection />
       <ExploreSection />
       <Footer />
-    </main>
+    </FadeIn>
   );
 }
 
