@@ -3,6 +3,9 @@ import blogSchema from "../data/blog";
 import Footer from "../components/Footer";
 import { Back } from "./CrushPost";
 
+// importing animation library
+import FadeIn from "react-fade-in";
+
 function PostHero() {
   return (
     <section className="text-section padding100 blog-title">
@@ -206,13 +209,13 @@ function PostContent() {
 
 function CrushPost() {
   return (
-    <main className="post-page">
+    <FadeIn className="post-page">
       <Navbar />
       <Back />
       <PostHero />
       <PostContent />
       <Footer />
-    </main>
+    </FadeIn>
   );
 }
 
